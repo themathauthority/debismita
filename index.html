@@ -21,21 +21,22 @@
     </div>
   </nav>
 
-  <main style="max-width: 1100px; margin: 0 auto; padding: 0 20px 40px;">
+  <main class="page-main">
     <!-- HERO -->
     <div class="hub-hero">
-      <h1 style="font-size: 2.5rem; color: var(--text-main);">ICSE Study Hub</h1>
+      <span class="eyebrow">Class 10 • ICSE 2025-26</span>
+      <h1>ICSE Study Hub</h1>
       <p>Clear, beautiful, exam-focused notes for Class 10. Mobile-friendly. Print-ready.</p>
-      <div style="margin-top: 16px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-        <a href="literature.html" class="action" style="padding: 9px 18px; background: rgba(var(--color-primary-rgb), 0.15); border-radius: 8px; color: var(--color-primary); text-decoration: none; font-weight: 600;">Browse Literature →</a>
-        <button onclick="document.getElementById('subjects').scrollIntoView({behavior:'smooth'})" class="btn-control" style="width:auto; padding: 0 16px; height: 38px; font-weight:600;">View All Subjects</button>
+      <div class="hero-actions">
+        <a href="literature.html" class="btn btn-primary">Browse Literature →</a>
+        <button type="button" class="btn btn-ghost" onclick="document.getElementById('subjects').scrollIntoView({behavior:'smooth'})">View All Subjects</button>
       </div>
     </div>
 
     <!-- SUBJECTS GRID -->
     <section id="subjects">
-      <div class="section-header" style="margin-bottom: 14px;">
-        <h2 class="section-title" style="font-size:1.45rem;">All ICSE Subjects</h2>
+      <div class="section-header">
+        <h2 class="section-title">All ICSE Subjects</h2>
         <span class="section-badge">Class 10 • 2025-26</span>
       </div>
 
@@ -55,56 +56,56 @@
           <div class="cta">Explore Language →</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Mathematics notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Mathematics notes coming soon.'); return false;">
           <div class="icon">🔢</div>
           <div class="name">Mathematics</div>
           <div class="meta">Algebra, Geometry, Trigonometry, Mensuration</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Physics notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Physics notes coming soon.'); return false;">
           <div class="icon">⚛️</div>
           <div class="name">Physics</div>
           <div class="meta">Force, Light, Sound, Electricity, Heat</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Chemistry notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Chemistry notes coming soon.'); return false;">
           <div class="icon">🧪</div>
           <div class="name">Chemistry</div>
           <div class="meta">Periodic Table, Bonding, Acids, Organic</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Biology notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Biology notes coming soon.'); return false;">
           <div class="icon">🧬</div>
           <div class="name">Biology</div>
           <div class="meta">Cell, Genetics, Human Physiology, Ecology</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('History & Civics notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('History & Civics notes coming soon.'); return false;">
           <div class="icon">🏛️</div>
-          <div class="name">History & Civics</div>
+          <div class="name">History &amp; Civics</div>
           <div class="meta">Indian History, Constitution, World Wars</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Geography notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Geography notes coming soon.'); return false;">
           <div class="icon">🌍</div>
           <div class="name">Geography</div>
           <div class="meta">Climate, Resources, Maps, Agriculture</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Computer Applications notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Computer Applications notes coming soon.'); return false;">
           <div class="icon">💻</div>
           <div class="name">Computer Applications</div>
           <div class="meta">Java, HTML, CSS, Database basics</div>
           <div class="cta">Coming Soon</div>
         </a>
 
-        <a href="#" class="subject-card" onclick="alert('Hindi / Second Language notes coming soon.'); return false;">
+        <a href="#" class="subject-card soon" onclick="alert('Hindi / Second Language notes coming soon.'); return false;">
           <div class="icon">🇮🇳</div>
           <div class="name">Hindi / Second Language</div>
           <div class="meta">Literature + Grammar</div>
@@ -112,11 +113,11 @@
         </a>
       </div>
 
-      <p style="text-align:center; margin-top: 24px; font-size:0.82rem; color:var(--text-muted);">More subjects will be added. All pages are static HTML + JS (perfect for GitHub Pages).</p>
+      <p class="fine-print">More subjects will be added. All pages are static HTML + JS (perfect for GitHub Pages).</p>
     </section>
   </main>
 
-  <footer style="text-align:center; padding:20px; border-top:1px solid var(--border-color); color:var(--text-muted); font-size:0.78rem;">
+  <footer class="site-footer">
     Built for ICSE students • Fully responsive • Dark + Light mode • Print friendly
   </footer>
 
